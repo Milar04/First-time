@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+<style>
+	body {
+			background: linear-gradient(to right, #ffffff, #f2f2f2 5%, #e6e6e6 10%, #d9d9d9 15%, #cccccc 20%, #bfbfbf 25%, #b3b3b3 30%, #a6a6a6 35%, #999999 40%, #8c8c8c 45%, #808080 50%, #737373 55%, #666666 60%, #595959 65%, #4d4d4d 70%, #404040 75%, #333333 80%, #262626 85%, #1a1a1a 90%, #0d0d0d 95%, #000000);
+			margin: auto;
+			width: 70%;
+			text-align: center;
+			border: 5px solid black;
+			padding: 20px;
+			box-sizing: border-box;
+			margin-top: 50px;
+			box-shadow: 10px 10px 10px #e5e4e2 ;
+			border-radius: 30px;
+			}
+		h1 {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 36px;
+			color: #f8f4ff;
+			text-shadow: 2px 2px 5px #000;
+	
+			}
+
+		h2 {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 15px;
+			color: #f8f4ff;
+			text-shadow: 2px 2px 5px #000;
+			margin-top: -10px;
+
+			} 
+		img {
+ 			 display: block;
+  			margin: auto;
+  			max-width: 100%;
+			margin-top: -50px;
+  			height: auto;
+			 width: 220px;
+  			height: 250px;
+			}
+		
+
+   @keyframes glow {
+			from { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; }
+			to { text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff; }
+			}
+		label {
+			background-color:#3d2b1f;
+			color: white;
+			padding: 10px 13px;
+			border-radius: 20px;
+			display: inline-block;
+			width: 100px;
+			font-size: 16px;
+			margin-top: 20px;
+			}
+   input[type=submit] {
+			background-color:#3d2b1f;
+			color: white;
+			padding: 10px 60px;
+			border: none;
+			border-radius: 20px;
+			cursor: pointer;
+			font-size: 18px;
+			margin-top: 20px;
+			box-shadow: 3px 3px 3px gray;
+			transition: background-color 0.3s ease-in-out;
+			}
+input[type=submit]:hover {
+			background-color: black;
+			color: white;
+			}
+
+input[type=text], input[type=password] {
+  			padding: 10px 30px;
+ 			border-radius: 20px;
+  			border: none;
+  			font-size: 16px;
+  			margin-top: 20px;
+  			box-shadow: 3px 3px 3px gray;
+}
+	
+</style>
+</head>
+<body>
+	
+	<h1><b>Jonathan Corporation</b></h1> 
+	<h2>Innovative Solutions for a Better Tomorrow</h2>
+	<img src="marko.png">
+	
+
+	<form action="" method="post">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username"><br><br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+		<input type="submit" value="Login">
+	</form>
+	
+</body>
+</html>
